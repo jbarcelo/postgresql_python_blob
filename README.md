@@ -12,3 +12,14 @@ CREATE TABLE blob_datastore
     blob_data bytea
 )
 ```
+
+I had to 
+```
+ pip install psycopg2 
+```
+
+And, to do that, first I had to 
+```
+sudo apt install postgresql-common
+sudo apt install libpq-dev
+```
